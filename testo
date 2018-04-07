@@ -1,0 +1,202 @@
+GDPR - Nuovo Regolamento Europeo sulla Protezione Dati
+A partire dal 25 maggio 2018, in tutti i Paesi dell’Unione Europea sarà attivo il nuovo Regolamento europeo in materia di protezione dei 
+dati personali 2016/679 (comunemente noto come GDPR - General Data Protection Regulation). Il regolamento abroga esplicitamente la 
+direttiva europea 95/46/CE, ma il Codice della Privacy italiano (Decreto legislativo 30/06/2003 n° 196) rimane in vigore per tutte le 
+parti che non sono in contrasto con il GDPR. Nelle prossime settimane è previsto il rilascio di un decreto di armonizzazione che andrà a 
+modificare il Codice della Privacy, eliminando i punti di contrasto.
+
+Il GDPR introdurrà regole più chiare nelle parti relative a informativa e consenso, puntando a garantire in maniera omogenea maggiori 
+tutele per i cittadini dell'UE; gli stati membri avranno la possibilità di inserire ulteriori regole e condizioni al regolamento che 
+diventerà immediatamente applicabile senza bisogno di provvedimenti nazionali.
+
+Il Regolamento 679 disciplinerà il trattamento di dati personali relativi a persone fisiche e giuridiche, compresi il nome, la forma 
+della persona giuridica ed i suoi dati di contatto.
+
+Informativa
+L’informativa dovrà essere facilmente accessibile e con un linguaggio semplice e chiaro; per fornire il consenso al nuovo regolamento, 
+sarà valida qualsiasi manifestazione di volontà libera e inequivocabile con la quale l’interessato accetta, con azione positiva, che i 
+dati personali che lo riguardano siano oggetto di trattamento; per facilitare la comprensione dei contenuti, nell’informativa si potranno 
+utilizzare anche le icone, identiche in tutta l’Unione Europea.
+Sono escluse forme di consenso tacito oppure raccolto attraverso la presentazione di opzioni già selezionate.
+
+
+Portabilità dei dati
+Sarà consentita la portabilità dei propri dati personali da un titolare del trattamento a un altro, all’interno del territorio 
+dell’Unione Europea a eccezione dei dati contenuti negli archivi di interesse pubblico.
+Gli interessati dovranno essere messi a conoscenza se i loro dati saranno trasmessi al di fuori dell’UE e con quali garanzie, e dovranno 
+sapere che hanno il diritto di revocare il consenso; il consenso a determinati trattamenti, come quelli a fini di marketing diretto, 
+potrà essere revocato in qualunque momento ma il trattamento effettuato fino alla sua revoca dal titolare sulla base del consenso rimarrà 
+legittimo.
+
+
+Data Breach
+Il titolare del trattamento dovrà comunicare eventuali violazioni dei dati personali (data breach) all’Autorità nazionale di protezione 
+dei dati entro 72 ore.
+Nel caso in cui la violazione dei dati rappresentasse una minaccia per i diritti e le libertà delle persone, il titolare dovrà informare 
+tutti gli interessati colpiti dalla violazione dei dati personali in modo semplice e immediato e spiegare come intende limitare le 
+possibili conseguenze; qualora la violazione non fosse ritenuta un rischio elevato o se dimostrerà di aver adottato le opportune misure 
+di sicurezza (ad esempio la cifratura) a tutela dei dati violati, il titolare del trattamento potrà decidere di non informare gli 
+interessati; nel caso in cui l’informazione degli interessati comporti uno sforzo sproporzionato (elevato numero delle persone coinvolte
+nella violazione dei dati) è richiesta una comunicazione pubblica adatta a raggiungere il maggior numero possibile di interessati 
+(tramite una comunicazione sul sito web del titolare) e l’Autorità preposta potrà in ogni caso imporre al titolare del trattamento di 
+informare gli interessati sulla base di una propria valutazione del rischio associato alla violazione.
+
+
+Diritto a cancellazione, limitazione e rettifica dei dati
+Gli interessati hanno diritto a chiedere al titolare del trattamento dei dati la cancellazione di questi ultimi o, anche, la limitazione 
+del loro trattamento o la rettifica.
+
+
+DPO (Data Protection Officer)
+All’interno delle aziende che trattano dati personali sarà introdotta la nuova figura del Responsabile della protezione dei dati 
+(DPO - Data Protection Officer), che avrà il compito di assicurare la corretta gestione dei dati da parte dell’azienda.
+
+
+Proposta per roadmap : Tools per la conformità GDPR
+
+
+Questa è una tabella di marcia proposta per aggiungere tools per la privacy nel core di WordPress. Il piano è finalizzarlo alla prossima 
+chat #gdpr-compliance su Slack.
+
+Obiettivo principale
+Aggiungere strumenti per aiutare i proprietari dei siti a conformarsi al GDPR e ad altre leggi e requisiti sulla privacy.
+
+
+Aggiungere delle notifiche, sia per gli utenti registrati sia per chi commenta, relative ai dati raccolti di default nel core e del 
+motivo per cui vengono raccolti.
+
+
+Testi più brevi nel core con link a maggiori informazioni. Testo da definire.
+Creare queste pagine "maggiori informazioni" su WordPress.org. Testo da definire.
+
+Creare alcune linee guida per i plugin su come ottenere la conformità.
+Una pagina (o più pagine) su WordPress.org. Necessario un testo.
+
+Aggiungere strumenti al core per facilitare la conformità e la privacy in generale.
+
+Ci sono alcuni plugin che hanno iniziato a implementare questi strumenti, quindi abbiamo un buon vantaggio.
+
+Le richieste di vedere, scaricare ed eliminare / anonimizzare i dati privati ​​devono essere confermate (doppio opt-in) per evitare 
+l'abuso. Una possibile soluzione sarebbe quella di inviare un token via e-mail quando un utente o un commentatore richiede l'accesso o 
+la cancellazione / anonimizzazione dei propri dati personali. L’utente dovrebbe poi inviare quel token come conferma della sua richiesta.
+
+
+Da definire: dobbiamo rendere automatico questo processo o lasciamo che sia il proprietario del sito a eseguire l'azione dopo aver 
+ricevuto conferma della richiesta?
+
+
+Per i commentatori. I dati privati memorizzati sono e-mail e indirizzi IP, il resto è pubblico.
+
+Finestra di dialogo per richiedere di vedere e scaricare i propri dati personali.
+Da definire: questi dati dovrebbero contenere anche la parte pubblica?
+Finestra di dialogo per la richiesta di cancellazione / anonimizzazione dei dati.
+Da definire: cancellazione o anonimizzazione? Oppure entrambe e lasciare che sia il proprietario del sito a decidere?
+Richiedere consenso per la memorizzazione dei cookie dei commentatori. Può essere una casella da spuntare sotto il form dei commenti, 
+qualcosa come "Salva il mio nome, l'indirizzo email e l'URL del sito nel mio browser per la prossima volta che pubblico un commento. 
+Maggiori informazioni".
+
+
+Per gli utenti registrati. Tutti i dati memorizzati per impostazione predefinita sono già visibili nel profilo utente (tranne gli 
+indirizzi IP se hanno commentato il sito) e la maggior parte può essere modificata o eliminata da lì.
+
+Pulsante per scaricare i propri dati privati, inclusi gli indirizzi IP se hanno commentato. Ancora una volta, dovrebbe contenere anche i
+dati pubblici?
+Pulsante per la richiesta di cancellazione / anonimizzazione del proprio account.
+
+
+Aggiungere documentazione / aiuto per i proprietari di sito su come utilizzare questi strumenti.
+Questa dovrebbe probabilmente essere un'altra pagina sotto il menu Tools e contenere una breve spiegazione di quali strumenti per privacy 
+sono disponibili e come usarli. Potrebbe anche contenere tool aggiornati, ad esempio un campo di input per i commentatori anonimi con un
+indirizzo email.
+Ci sono alcune cose che necessitano chiarimenti:
+Gli indirizzi IP possono essere considerati dati personali, quindi devono essere cancellati o resi anonimi. Tuttavia devono essere 
+inviati all'utente quando richiede di vedere o scaricare i propri dati personali? Sono essenzialmente token di terze parti utilizzati 
+temporaneamente per accedere a Internet e gli utenti non hanno alcun controllo su di essi. Gli altri siti Web li rendono disponibili?
+Chi dobbiamo considerare come "controllori"? Tutti gli utenti admin delle installazioni WP individuali e gli utenti superadmin in 
+ambiente multisito? Gli utenti admin in ambiente multisito, possono essere considerati "controllori" per il loro sito?
+
+
+Fonte:
+https://make.wordpress.org/core/2018/02/19/proposed-roadmap-tools-for-gdpr-compliance/
+
+
+Obiettivo principale
+Aggiungere strumenti per aiutare i proprietari di sito a conformarsi al GDPR e ad altre leggi e requisiti sulla privacy.
+
+
+Aggiungere avvisi sia per gli utenti registrati che per i commentatori su quali dati sono raccolti nel core in base all'impostazione 
+predefinita e perché.
+Testi più brevi nel nucleo con collegamenti a maggiori informazioni. Testo da definire.
+Creare queste pagine "ulteriori informazioni" su WordPress.org. Testo da definire.
+
+
+Creare alcune linee guida per i plugin su come ottenere la conformità.
+Una pagina (o più pagine) su WordPress.org. Testo da definire.
+
+
+Aggiungere tools al nucleo per facilitare la conformità e la privacy in generale.
+Ci sono alcuni plugin che hanno iniziato a implementare questi strumenti, quindi abbiamo un buon vantaggio.
+Le richieste di vedere, scaricare ed eliminare / anonimizzare i dati privati ​​devono essere confermate (doppio opt-in) per evitare 
+l'abuso. Una possibile soluzione sarebbe quella di inviare un token via e-mail quando un utente o un commentatore ha richiesto l'accesso 
+o la cancellazione / anonimizzazione dei propri dati personali. Quindi dovranno inviare quel token come conferma della loro richiesta. 
+(Da definire: dovremo rendere automatico questo processo o il proprietario del sito dovrebbe eseguire l'azione dopo aver ricevuto la 
+richiesta confermata?)
+Per i commentatori. I dati privati memorizzati sono e-mail e indirizzi IP, il resto è pubblico.
+
+Finestra di dialogo per richiedere di vedere e scaricare i propri dati personali. Da definire: questi dati dovrebbero contenere anche la
+parte pubblica?
+Finestra di dialogo per la richiesta di cancellazione / anonimizzazione dei dati. Da definire: cancellazione o anonimizzazione? 
+O entrambi e lasciare che sia il proprietario del sito a decidere?
+Richiedere il consenso per la memorizzazione dei cookie dei commentatori. Può essere una casella di controllo (contrassegnata) sotto il 
+modulo dei commenti, qualcosa come "Salva il mio nome, l'indirizzo email e l'URL del sito nel mio browser per la prossima volta che 
+pubblico un commento. Maggiori informazioni".
+Per gli utenti registrati. Tutti i dati memorizzati per impostazione predefinita sono già visibili nel profilo utente (tranne gli 
+indirizzi IP se hanno commentato il sito) e la maggior parte può essere modificata o eliminata da lì.
+
+Pulsante per scaricare i propri dati privati, inclusi gli indirizzi IP se hanno commentato. Ancora una volta, dovrebbe contenere anche i
+dati pubblici?
+Pulsante per la richiesta di cancellazione / anonimizzazione del proprio account. 
+
+
+Aggiungere documentazione / guida per i proprietari di sito su come utilizzare questi strumenti.
+Questa dovrebbe probabilmente essere un'altra pagina sotto il menu Strumenti e contenere una breve spiegazione di quali strumenti per la 
+privacy sono disponibili e come usarli. Potrebbe anche contenere gli strumenti effettivi, ad esempio un campo di input per i commentatori
+anonimi per indirizzo email.
+Ci sono alcune cose che necessitano di chiarimenti:
+Gli indirizzi IP possono essere considerati dati personali, quindi devono essere cancellati o resi anonimi. Tuttavia devono essere 
+inviati all'utente quando richiede di vedere o scaricare i propri dati personali? Sono essenzialmente token di terze parti utilizzati 
+temporaneamente per accedere a Internet e gli utenti non hanno alcun controllo su di essi. Gli altri siti Web li rendono disponibili?
+Chi sono considerati "controllori"? Tutti gli amministratori su singola installazione e tutti i superadmin su multisito? Gli utenti
+admin in ambiente multisito, possono essere considerati "controllori" per il loro sito.
+
+
+
+Fonte:
+https://github.com/gdpr-compliance/info/blob/master/Roadmap.md 
+
+
+
+
+https://iapp.org/news/a/looking-to-comply-with-gdpr-heres-a-primer-on-anonymization-and-pseudonymization/ 
+
+
+
+Make/Core
+https://make.wordpress.org/core/tag/gdpr-compliance/
+
+
+Trac tickets https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr
+
+
+GDPR (temporary) info repository 
+https://github.com/gdpr-compliance/info/
+
+
+
+
+https://github.com/gdpr-compliance/info/blob/master/Useful-links.md#plugins-and-frameworks 
+
+
+
+
+https://make.wordpress.org/core/2018/04/05/gdpr-compliance-chat-recap-april-4/ 
