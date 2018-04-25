@@ -46,6 +46,327 @@ Diritto a cancellazione, limitazione e rettifica dei dati
 Gli interessati hanno diritto a chiedere al titolare del trattamento dei dati la cancellazione di questi ultimi o, anche, la limitazione 
 del loro trattamento o la rettifica.
 
+GDPR - Nuovo Regolamento Europeo sulla Protezione Dati
+A partire dal 25 maggio 2018, in tutti i Paesi dell’Unione Europea sarà attivo il nuovo Regolamento europeo in materia di protezione dei dati personali 2016/679 (comunemente noto come GDPR - General Data Protection Regulation). Il regolamento abroga esplicitamente la direttiva europea 95/46/CE, ma il Codice della Privacy italiano (Decreto legislativo 30/06/2003 n° 196) rimane in vigore per tutte le parti che non sono in contrasto con il GDPR. Nelle prossime settimane è previsto il rilascio di un decreto di armonizzazione che andrà a modificare il Codice della Privacy, eliminando i punti di contrasto.
+_______________________________________________________________
+Aggiornamento 21 Marzo 2018: Il Consiglio dei Ministri ha approvato, in esame preliminare, un decreto legislativo che, in attuazione dell’art. 13 della legge di delegazione europea 2016-2017 (legge 25 ottobre 2017, n. 163), introduce disposizioni per l’adeguamento della normativa nazionale alle disposizioni del Regolamento (UE) 2016/679 relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati.
+Dal 25 maggio 2018, data in cui le disposizioni di diritto europeo acquisteranno efficacia, il vigente Codice in materia di protezione dei dati personali, di cui al decreto legislativo 30 giugno 2003, n. 196, sarà abrogato e la nuova disciplina in materia sarà rappresentata principalmente dalle disposizioni del suddetto Regolamento (GDPR) immediatamente applicabili e da quelle recate dallo schema di decreto volte ad armonizzare l’ordinamento interno al nuovo quadro normativo dell’Unione Europea in tema di tutela della privacy.
+http://www.governo.it/articolo/comunicato-stampa-del-consiglio-dei-ministri-n-75/9132 
+_______________________________________________________________
+ 
+Il GDPR introdurrà regole più chiare nelle parti relative a informativa e consenso, puntando a garantire in maniera omogenea maggiori tutele per i cittadini dell'UE; gli stati membri avranno la possibilità di inserire ulteriori regole e condizioni al regolamento che diventerà immediatamente applicabile senza bisogno di provvedimenti nazionali.
+ 
+Il Regolamento 679 disciplinerà il trattamento di dati personali relativi a persone fisiche e giuridiche, compresi il nome, la forma della persona giuridica ed i suoi dati di contatto.
+
+
+ 
+Informativa
+L’informativa dovrà essere facilmente accessibile e con un linguaggio semplice e chiaro; per fornire il consenso al nuovo regolamento, sarà valida qualsiasi manifestazione di volontà libera e inequivocabile con la quale l’interessato accetta, con azione positiva, che i dati personali che lo riguardano siano oggetto di trattamento; per facilitare la comprensione dei contenuti, nell’informativa si potranno utilizzare anche le icone, identiche in tutta l’Unione Europea.
+Sono escluse forme di consenso tacito oppure raccolto attraverso la presentazione di opzioni già selezionate.
+
+Pagina Privacy Policy
+Nel sito dovrà esserci una pagina per la normativa sulla privacy molto dettagliata nella quale saranno spiegati agli utenti tutti i loro diritti in base agli articoli di legge previsti dal GDPR, la loro garanzia all’eventuale diritto all’oblio (con relativa spiegazione di come chiederlo), e tutti i servizi di terze parti che profilano gli utenti del sito come Google Analitycs o i servizi di newsletter.
+
+Portabilità dei dati
+Sarà consentita la portabilità dei propri dati personali da un titolare del trattamento a un altro, all’interno del territorio dell’Unione Europea a eccezione dei dati contenuti negli archivi di interesse pubblico.
+Gli interessati dovranno essere messi a conoscenza se i loro dati saranno trasmessi al di fuori dell’UE e con quali garanzie, e dovranno sapere che
+hanno il diritto di revocare il consenso; il consenso a determinati trattamenti, come quelli a fini di marketing diretto, potrà essere revocato in qualunque momento ma il trattamento effettuato fino alla sua revoca dal titolare sulla base del consenso rimarrà legittimo.
+
+Data Breach
+Il titolare del trattamento dovrà comunicare eventuali violazioni dei dati personali (data breach) all’Autorità nazionale di protezione dei dati entro 72 ore.
+Nel caso in cui la violazione dei dati rappresentasse una minaccia per i diritti e le libertà delle persone, il titolare dovrà informare tutti gli interessati colpiti dalla violazione dei dati personali in modo semplice e immediato e spiegare come intende limitare le possibili conseguenze; qualora la violazione non fosse ritenuta un rischio elevato o se dimostrerà di aver adottato le opportune misure di sicurezza (ad esempio la cifratura) a tutela dei dati violati, il titolare del trattamento potrà decidere di non informare gli interessati; nel caso in cui l’informazione degli interessati comporti uno sforzo sproporzionato (elevato numero delle persone coinvolte nella violazione dei dati) è richiesta una comunicazione pubblica adatta a raggiungere il maggior numero possibile di interessati (tramite una comunicazione sul sito web del titolare) e l’Autorità preposta potrà in ogni caso imporre al titolare del trattamento di informare gli interessati sulla base di una propria valutazione del rischio associato alla violazione.
+
+Diritto a cancellazione, limitazione e rettifica dei dati
+Gli interessati hanno diritto a chiedere al titolare del trattamento dei dati la cancellazione di questi ultimi o, anche, la limitazione del loro trattamento o la rettifica.
+
+DPO (Data Protection Officer)
+All’interno delle aziende che trattano dati personali sarà introdotta la nuova figura del Responsabile della protezione dei dati (DPO - Data Protection Officer), che avrà il compito di assicurare la corretta gestione dei dati da parte dell’azienda.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________
+Proposta per roadmap : Tools per la conformità GDPR
+
+
+Questa è una tabella di marcia proposta per aggiungere tools per la privacy nel core di WordPress. Il piano è finalizzarlo alla prossima chat #gdpr-compliance su Slack.
+ 
+Obiettivo principale
+Aggiungere strumenti per aiutare i proprietari dei siti a conformarsi al GDPR e ad altre leggi e requisiti sulla privacy.
+
+Aggiungere delle notifiche, sia per gli utenti registrati sia per chi commenta, relative ai dati raccolti di default nel core e del motivo per cui vengono raccolti.
+
+•	Testi più brevi nel core con link a maggiori informazioni. Testo da definire.
+•	Creare queste pagine "maggiori informazioni" su WordPress.org. Testo da definire.
+
+Creare alcune linee guida per i plugin su come ottenere la conformità.
+•	Una pagina (o più pagine) su WordPress.org. Necessario un testo.
+ 
+Aggiungere strumenti al core per facilitare la conformità e la privacy in generale.
+
+Ci sono alcuni plugin che hanno iniziato a implementare questi strumenti, quindi abbiamo un buon vantaggio.
+ 
+Le richieste di vedere, scaricare ed eliminare / anonimizzare i dati privati devono essere confermate (doppio opt-in) per evitare l'abuso. Una possibile soluzione sarebbe quella di inviare un token via e-mail quando un utente o un commentatore richiede l'accesso o la cancellazione / anonimizzazione dei propri dati personali. L’utente dovrebbe poi inviare quel token come conferma della sua richiesta.
+
+Da definire: dobbiamo rendere automatico questo processo o lasciamo che sia il proprietario del sito a eseguire l'azione dopo aver ricevuto conferma della richiesta?
+
+•	Per i commentatori. I dati privati memorizzati sono e-mail e indirizzi IP, il resto è pubblico.
+1.	Finestra di dialogo per richiedere di vedere e scaricare i propri dati personali.
+Da definire: questi dati dovrebbero contenere anche la parte pubblica?
+2.	Finestra di dialogo per la richiesta di cancellazione / anonimizzazione dei dati.
+Da definire: cancellazione o anonimizzazione? Oppure entrambe e lasciare che sia il proprietario del sito a decidere?
+3.	Richiedere consenso per la memorizzazione dei cookie dei commentatori. Può essere una casella da spuntare sotto il form dei commenti, qualcosa come "Salva il mio nome, l'indirizzo email e l'URL del sito nel mio browser per la prossima volta che pubblico un commento. Maggiori informazioni".
+
+
+•	Per gli utenti registrati. Tutti i dati memorizzati per impostazione 	predefinita sono già visibili nel profilo utente (tranne gli indirizzi IP se hanno commentato il sito) e la maggior parte può essere modificata o eliminata da lì.
+1.	Pulsante per scaricare i propri dati privati, inclusi gli indirizzi IP se hanno commentato. Ancora una volta, dovrebbe contenere anche i dati pubblici?
+2.	Pulsante per la richiesta di cancellazione / anonimizzazione del proprio account.
+
+Aggiungere documentazione / aiuto per i proprietari di sito su come utilizzare questi strumenti.
+Questa dovrebbe probabilmente essere un'altra pagina sotto il menu Tools e contenere una breve spiegazione di quali strumenti per privacy sono disponibili e come usarli. Potrebbe anche contenere tool aggiornati, ad esempio un campo di input per i commentatori anonimi con un indirizzo email.
+Ci sono alcune cose che necessitano chiarimenti:
+•	Gli indirizzi IP possono essere considerati dati personali, quindi devono essere cancellati o resi anonimi. Tuttavia devono essere inviati all'utente quando richiede di vedere o scaricare i propri dati personali? Sono essenzialmente token di terze parti utilizzati temporaneamente per accedere a Internet e gli utenti non hanno alcun controllo su di essi. Gli altri siti Web li rendono disponibili?
+•	Chi dobbiamo considerare come "controllori"? Tutti gli utenti admin delle installazioni WP individuali e gli utenti superadmin in ambiente multisito? Gli utenti admin in ambiente multisito, possono essere considerati "controllori" per il loro sito?
+
+Fonte:
+https://make.wordpress.org/core/2018/02/19/proposed-roadmap-tools-for-gdpr-compliance/
+________________________________________
+Obiettivo principale
+Aggiungere strumenti per aiutare i proprietari di sito a conformarsi al GDPR e ad altre leggi e requisiti sulla privacy.
+
+Aggiungere avvisi sia per gli utenti registrati che per i commentatori su quali dati sono raccolti nel core in base all'impostazione predefinita e perché.
+•	Testi più brevi nel nucleo con collegamenti a maggiori informazioni. Testo da definire.
+•	Creare queste pagine "ulteriori informazioni" su WordPress.org. Testo da definire.
+
+Creare alcune linee guida per i plugin su come ottenere la conformità.
+Una pagina (o più pagine) su WordPress.org. Testo da definire.
+
+ Aggiungere tools al nucleo per facilitare la conformità e la privacy in generale.
+Ci sono alcuni plugin che hanno iniziato a implementare questi strumenti, quindi abbiamo un buon vantaggio.
+Le richieste di vedere, scaricare ed eliminare / anonimizzare i dati privati devono essere confermate (doppio opt-in) per evitare l'abuso. Una possibile soluzione sarebbe quella di inviare un token via e-mail quando un utente o un commentatore ha richiesto l'accesso o la cancellazione / anonimizzazione dei propri dati personali. Quindi dovranno inviare quel token come conferma della loro richiesta. (Da definire: dovremo rendere automatico questo processo o il proprietario del sito dovrebbe eseguire l'azione dopo aver ricevuto la richiesta confermata?)
+•	Per i commentatori. I dati privati memorizzati sono e-mail e indirizzi IP, il resto è pubblico.
+o	Finestra di dialogo per richiedere di vedere e scaricare i propri dati personali. Da definire: questi dati dovrebbero contenere anche la parte pubblica?
+o	Finestra di dialogo per la richiesta di cancellazione / anonimizzazione dei dati. Da definire: cancellazione o anonimizzazione? O entrambi e lasciare che sia il proprietario del sito a decidere?
+o	Richiedere il consenso per la memorizzazione dei cookie dei commentatori. Può essere una casella di controllo (contrassegnata) sotto il modulo dei commenti, qualcosa come "Salva il mio nome, l'indirizzo email e l'URL del sito nel mio browser per la prossima volta che pubblico un commento. Maggiori informazioni".
+•	Per gli utenti registrati. Tutti i dati memorizzati per impostazione predefinita sono già visibili nel profilo utente (tranne gli indirizzi IP se hanno commentato il sito) e la maggior parte può essere modificata o eliminata da lì.
+o	Pulsante per scaricare i propri dati privati, inclusi gli indirizzi IP se hanno commentato. Ancora una volta, dovrebbe contenere anche i dati pubblici?
+o	Pulsante per la richiesta di cancellazione / anonimizzazione del proprio account. 		
+
+Aggiungere documentazione / guida per i proprietari di sito su come utilizzare questi strumenti.
+Questa dovrebbe probabilmente essere un'altra pagina sotto il menu Strumenti e contenere una breve spiegazione di quali strumenti per la privacy sono disponibili e come usarli. Potrebbe anche contenere gli strumenti effettivi, ad esempio un campo di input per i commentatori anonimi per indirizzo email.
+Ci sono alcune cose che necessitano di chiarimenti:
+•	Gli indirizzi IP possono essere considerati dati personali, quindi devono essere cancellati o resi anonimi. Tuttavia devono essere inviati all'utente quando richiede di vedere o scaricare i propri dati personali? Sono essenzialmente token di 	terze parti utilizzati temporaneamente per accedere a Internet e gli utenti non hanno alcun controllo su di essi. Gli altri siti Web li rendono 	disponibili?
+•	Chi sono considerati "controllori"? Tutti gli amministratori su singola installazione e tutti i superadmin su multisito? Gli utenti admin in ambiente multisito, possono essere considerati "controllori" per il loro sito.
+
+Fonte:
+https://github.com/gdpr-compliance/info/blob/master/Roadmap.md 
+
+________________________________________
+https://iapp.org/news/a/looking-to-comply-with-gdpr-heres-a-primer-on-anonymization-and-pseudonymization/ 
+
+Make/Core
+https://make.wordpress.org/core/tag/gdpr-compliance/
+
+Trac tickets https://core.trac.wordpress.org/query?status=!closed&keywords=~gdpr
+
+GDPR (temporary) info repository 
+https://github.com/gdpr-compliance/info/
+
+https://github.com/gdpr-compliance/info/blob/master/Useful-links.md#plugins-and-frameworks 
+
+https://make.wordpress.org/core/2018/04/05/gdpr-compliance-chat-recap-april-4/ 
+
+https://github.com/gdpr-compliance/info/blob/master/information-resources.md
+
+https://make.wordpress.org/core/2018/04/14/gdpr-copliance-chat-recap-april-11/ 
+
+https://wordpress.org/news/2018/04/gdpr-compliance-tools-in-wordpress/ 
+
+Presentazione in cui si spiega come preparare WordPress per il GDPR
+https://docs.google.com/document/d/1mMKbQ_tsq4VLYB-wbOp4yCivlk42MMiacilmRSdWV48/edit 
+
+________________________________________
+Progetto GDPR Compliance
+Linee guida per i plugin per la GDPR
+
+L'intenzione è di aggiungere questo contenuto alle linee guida per lo sviluppo di plugin di WordPress.org, come un nuovo capitolo, con titolo provvisorio: "Privacy".
+Iniziamo con uno schema e poi possiamo dividere il contenuto in fase di sviluppo. Scegliete una sezione o una sottosezione per ognuno di voi - basta mettere il proprio nome dopo di esso
+Linee guida per i Plugin
+
+•	Perché la privacy è importante / privacy by design HB
+•	Definizioni / linee guida HB
+•	dati personali - Esempi di cosa sono i dati personali, cosa probabilmente non lo è, e cosa c'è in un'area grigia HB
+•	“GDPR”
+•	Guida al trattamento dei dati personali:
+Problemi riguardanti i Plugin
+
+•	Che cosa dicono le attuali linee guida sui plug-in sulla privacy e cosa non dicono HB / Mika
+•	Plugin "Compliance" - HB / Mika
+
+Perché la privacy è importante
+
+Guida per la gestione dei dati personali
+Prepararsi a sviluppare per la privacy
+
+1.	Per gli autori di plugin esistenti i cui plugin raccolgono, archiviano o aggregano dati personali, è necessario seguire la guida per la gestione dei dati personali. Se il plugin raccoglie una notevole quantità di dati personali, passa i dati a un servizio esterno o riceve dati da un servizio esterno, è necessario eseguire una Privacy Impact Assessment (PIA).
+a.	Esaminare tutti i dati raccolti dagli utenti (inclusi browser o altri dati raccolti automaticamente)
+b.	Esaminare il database e cercare i dati personali presenti.
+c.	Esamina i dati inviati a qualsiasi fornitore di terze parti (API, ecc.)
+2.	Per lo sviluppo di plugin nuovi o già attivi, è necessario attenersi ai principi di Privacy by Design (PbD), poiché è possibile aggiungere nuove funzionalità al plugin che può raccogliere dati personali, seguire la Guida per le indicazioni sul trattamento dei dati e aggiornare in modo appropriato l’informativa sulla privacy del plugin.
+a.	La privacy dovrebbe essere l'impostazione predefinita nel plugin
+b.	Tutta la raccolta di dati personali deve avere il consenso attivo di opt-in
+c.	La raccolta, conservazione e condivisione di dati personali facilitati dal plugin devono essere descritti nell'informativa sulla privacy del plugin.
+d.	L'utente finale deve essere in grado di controllare i propri dati personali (come descritto nella sezione sul controllo dei dati) tramite impostazioni, opzioni o dashboard in qualsiasi momento
+3. Se il tuo plugin è nuovo o esistente, devono essere aggiornate le informazioni sulla privacy del plugin nel file readme. Devono essere fornite tutte le informazioni richieste dal tool per l’informativa sulla privacy che consentiranno agli utenti di pubblicare una informativa sulla privacy accurata e conforme alle leggi sulle attività di raccolta dei dati del sito.
+
+Identificazione dei dati personali
+1.	Identificare quali dati personali vengono raccolti e archiviati
+2.	Definire lo scopo per cui i dati personali vengono raccolti
+3.	Definire il consenso o la base legale per quella raccolta di dati personali
+4.	Confermare che i dati personali vengono raccolti o elaborati solo per uno scopo specifico
+
+Archiviazione, conservazione e sicurezza
+o	Dove è memorizzato? (DB, file, cookie, terze parti)
+	sono memorizzati in forma criptata?
+o	Gestione del consenso:
+	Quando viene raccolto il consenso? (prima o dopo che i dati personali sono stati raccolti?)
+	Dove è registrato? (come cercare questa informazione?)
+	Come è confermato? (È opt-out predefinito o opt-in predefinito?)
+o	Terze parti e quali dati personali sono condivisi con loro
+	Scopo della memorizzazione dei dati con terze parti
+	Confermare solo i dati necessari che sono condivisi. (minimizzazione)
+	Vengono trasmessi a terze parti in forma criptata?
+o	Per quanto tempo verranno archiviati i dati personali? (Sessione, XX giorni, a tempo indeterminato)
+	Conferma che i dati personali vengono memorizzati solo per il tempo necessario.
+o	Dettaglio dei processi per il controllo dei dati personali.
+	Come può essere fatta una copia dei dati personali di un singolo utente? (Portabilità)
+	Come può essere eseguita una richiesta di rimozione o anonimizzazione dei dati personali dell'utente?
+
+o	Aggiornare l’informativa sulla privacy del plugin utilizzando la guida sopra, tutte le domande e i dettagli sopra indicati devono essere inclusi nell'informativa sulla privacy.
+
+•	Frequently Asked Questions
+o	le domande vanno qui
+•	Documentare tutto
+o	Proporre forse almeno una sezione in readme.txt?
+o	Cose che dovresti probabilmente evitare di rivendicare sul tuo plugin ("rende il tuo sito pienamente compatibile con Blah Blah")
+(Vedi https://www.wpgdprc.com/what-is-gdpr/  - "conformità automatica")
+(Ho fatto una pull request)
+https://github.com/WordPress/wporg-plugin-guidelines/pull/61)
+
+Problemi relativi ai plugin
+Che cosa dicono le attuali linee guida sui plugin sulla privacy e cosa non dicono
+
+In un momento di crescente attenzione pubblica sulla privacy e sui problemi di protezione dei dati, l'ecosistema di WordPress detiene una massiccia posizione di influenza. Le azioni che adottiamo per fornire un migliore standard per la privacy per coloro che installano i plugin che creiamo , a loro volta, creeranno un web più sicuro per gli utenti finali.
+
+Per soddisfare i requisiti dei regolamentatori europei attenti alla privacy e di un pubblico maggiormente attento, ogni sviluppatore di plugin il cui lavoro raccoglie, conserva o trasmette dati personali dovrà rivedere i loro problemi di raccolta, conservazione e flusso di dati prima del GDPR. (In un mondo ideale questo dovrebbe essere sfruttato con il lavoro che dovrà essere fatto in ogni caso per Gutenberg.)
+
+ 
+Prima di sapere dove dobbiamo andare, per prima cosa dobbiamo vedere dove siamo: che cosa sono attualmente tenuti a conoscere gli sviluppatori di plugin che e cosa devono fare in merito alla privacy degli utenti? Questo aspetto deriva dalla prospettiva di ciò che gli sviluppatori europei avranno bisogno e da ciò che i regolamentatori europei per la protezione dei dati si aspettano di vedere.
+
+ 
+Le attuali linee guida per i plugin (https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) trattano la privacy in due aree.
+
+ 
+La prima, sezione 7, afferma
+ 
+7. I plugin non possono tracciare gli utenti senza il loro consenso.
+ 
+Nell'interesse di proteggere la privacy degli utenti, i plugin non possono contattare server esterni senza il consenso esplicito e autorizzato. Questo è comunemente fatto tramite un metodo 'opt in', che richiede la registrazione con un servizio o una casella di controllo all'interno delle impostazioni del plugin. La documentazione su come vengono raccolti e utilizzati i dati degli utenti dovrebbe essere inclusa nel readme del plugin, preferibilmente con una informativa sulla privacy chiaramente stabilita.
+Alcuni esempi di tracciamento vietato includono:
+•	Raccolta automatizzata di dati utente senza conferma esplicita da parte dell'utente.
+•	Utenti intenzionalmente fuorvianti nella trasmissione delle informazioni come requisito per l'utilizzo del plugin stesso.
+•	Offloading assets (incluse immagini e script) non correlate a un servizio.
+•	Uso non documentato (o scarsamente documentato) di dati esterni (come blocklist).
+•	Meccanismi pubblicitari di terze parti che tracciano l'utilizzo e / o le visualizzazioni.
+Una eccezione sono i Software as a Service, come Twitter, un plugin di Amazon CDN o Akismet. Installando, attivando, registrando e configurando plug-in che utilizzano tali servizi, viene concesso il consenso per questi sistemi.  
+Dal punto di vista giuridico europeo, questo confonde molti aspetti della privacy e della protezione dei dati, senza benefici per nessuno. Non c'è molta chiarezza o distinzione tra:
+ 
+•	Raccolta dati utente
+o	Nessuna definizione di cosa sono i dati dell'utente
+o	Nessuna definizione di raccolta
+o	Il chiarimento sulla raccolta dei dati dell'utente e sulla conservazione "dovrebbe" essere incluso nel readme del plugin
+o	Ma non è necessario che un plugin abbia una informativa sulla privacy
+•	Telemetria utente
+o	Telemetria essenziale per la sicurezza e gli aggiornamenti della versione
+o	Telemetria che non soddisfa questa definizione
+o	Notifica e opt-in per telemetria
+•	Contattare i server esterni per scopi non di telemetria
+o	Servizi SAAS (che sono chiari)
+o	Cloud storage
+o	Ecc....
+o	Plugin che raccolgono telemetria eccessiva per definizione di draft ePD
+•	Tracciamento vietato
+o	Raccolta, profilazione o monitoraggio di background senza consenso attivo, opt-in
+o	Modello UX non chiaro
+o	Offloading assets (di nuovo, un problema di consenso)
+o	Dati esterni non documentati (un problema di raccolta dati utente)
+o	Meccanismi di pubblicità di terze parti (sia un consenso che un problema di raccolta dei dati dell'utente)
+ 
+Non solo c'è una mancanza di distinzione tra le aree, ma c'è una mancanza di una serie di regole da seguire per ciò che è e non è accettabile. Raccolta, conservazione, utilizzo dei dati non sono definiti; la telemetria non è adeguatamente indirizzata; esempi di tracciamento vietato non sono collegati ad esempi positivi di utilizzo accettabile; e non sono richieste le informative sulla privacy.
+ 
+Questa informazione riguarda solo i plugin nel repository, non i plugin premium (quelli "too big to fail") che operano al di fuori di esso. Questo è uno strano scenario in cui sono presenti anche i casi limite.
+
+La seconda area delle linee guida per i plugin che si occupano di privacy - o dovrebbe - è la sezione 9, nella quale si afferma che
+ 
+Gli sviluppatori e i loro plugin non devono fare nulla di illegale, disonesto o moralmente offensivo.
+ 
+Significa che lo sviluppatore non deve fare qualcosa di illegale, o lo sviluppatore non deve fare qualcosa che possa far sì che il sito dell'utente finale stia violando le leggi del proprio paese o quelle dei propri utenti?
+ 
+Ogni contratto di progetto che un web designer firmerà con un cliente includerà una clausola che richiede che il prodotto finale sia "legale" per la giurisdizione per cui è stato creato. Possiamo facilmente immaginare uno scenario in cui l'incapacità di un plugin di dichiarare, chiarire e garantire il consenso di opt-in per la raccolta e l'elaborazione dei dati rende nullo un intero contratto. Possiamo ugualmente immaginare i regolatori della protezione dei dati, che sono stati disponibili con il progetto WordPress fino ad oggi per la violazione dei dati (https://ico.org.uk/action-weve-taken/enforcement/the-carphone-warehouse-ltd/ ) , decidando di approfondire le cause dell'uso inappropriato dei dati e di giungere alle linee guida del plugin.
+
+Gli esempi forniti di attività "illegali" nella sezione 9 sono in gran parte comportamentali. Sono lì per una ragione, e sono necessari. Ma ancora una volta, dal punto di vista giuridico europeo, è un'omissione clamorosa scuotere le dita agli sviluppatori per "non fare nulla di illegale" pur non riuscendo a supportarli per soddisfare i loro obblighi legali verso coloro che installano e usano i loro plugin.
+ 
+Le domande, quindi, sono:
+1.	Abbiamo bisogno di rivedere e modificare le linee guida del plugin?
+2.	Se è così, come possiamo iniziare quel dialogo con la comunità, con quali persone particolari, in quali forum?
+3.	Quali definizioni, chiarimenti e nuovi requisiti (come le informative sulla privacy dei plugin) saranno ritenute necessarie?
+4.	Abbiamo bisogno di una revisione dei plugin combinati con Gutenberg?
+5.	Come gestiamo le obiezioni e i rifiuti all'interno dell'ecosistema di sviluppo dei plugin?
+
+La risposta di Mika
+Whoof. Va bene .... 1. Penso che sia un po il tuo appello se le linee guida hanno bisogno di una rivisitazione. Direi che sembra sì.
+
+2. Possiamo iniziare con un problema GDPR - https://github.com/WordPress/wporg-plugin-guidelines/issues - e quindi iniziare a fare pull request per cambiare le cose.
+
+3. Sembra che tu sappia già che cosa deve essere definito, quindi dobbiamo solo trovare un posto sano per quelle definizioni, poiché temo che averle incluse nelle linee guida potrebbero renderle un enorme tl;dr per la maggior parte degli sviluppatori.
+
+4. Può capitare di rivedere i plugin esistenti, ma per chi e in che modo? Non abbiamo la squadra o gli strumenti per farlo in scala.
+
+5. Obiezioni / rifiuti di qualunque nuova linea guida non arrivano a ospitare i plugin qui. Coloro che obiettano mentre stiamo lavorando su nuove linee guida (che dovranno essere il più pubbliche possibile) dovranno accettare di non essere d'accordo e di lavorare con noi. Detto questo, vedo i seguenti ostacoli: * Base di riferimento ragionevolmente gestibile. Aspettarsi che i revisori dei plugin siano avvocati è una pessima idea. Qualunque siano le nuove linee guida, devono essere semplici e chiare per i revisori oppure si verificheranno errori. (vedi la nostra gestione dei marchi nel plugin slug - è circa il 90% ok ...).
+
+* tl;dr. In relazione a quanto sopra, più le linee guida saranno complesse, MENO probabile che tutti capiscano e siano in grado di conformarsi.
+
+* Estensione della portata. Dobbiamo preoccuparci se il SERVIZIO è conforme a GDPR? Direi di no.
+
+* Applicazione. Cosa succede se qualcuno rimuove una notifica sulla privacy? Al momento, non abbiamo strumenti precisi per verificarlo. Sarà accettabile? In caso contrario, abbiamo un problema ENORME. La base per iniziare è questa: 1. Crea una nuova "questione" sul repository git per le linee guida per la conformità GDPR.
+
+2. Definire il "minimo indispensabile" di ciò che dobbiamo cambiare (che credo sia definire meglio i termini, impostare aspettative ragionevoli per gli sviluppatori)
+
+3. Scoprire come riesamineremo e applicheremo i plugin esistenti.
+
+4. Una volta ottenuto ciò che riteniamo positivo, rendilo disponibile per coloro che leggono make/plugins per coinvolgere e commentare
+
+
+https://docs.google.com/document/d/1-qtKsNLzs-D8nqYa_y0slMrUJA-ctQhoXwr17m8CPZY/edit# 
+
+________________________________________
+
+Indicazioni per i developer riguardo l'informativa per il GDPR
+https://docs.google.com/document/d/1SI01SJbSzbU6MaOUrGSKK0JWOQ3Q1lVZtmJr6SJ59bw/edit 
+
+
 
 DPO (Data Protection Officer)
 All’interno delle aziende che trattano dati personali sarà introdotta la nuova figura del Responsabile della protezione dei dati 
